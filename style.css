@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #e9e6df;
+
+    font-family: Arial, sans-serif;
+}
+
+.book {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.book img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+}
